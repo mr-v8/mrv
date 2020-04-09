@@ -1,3 +1,38 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Mr. V's Blog"
+theme = "minimal"
+disqusShortname = "disqus_gUWY9a8kQI" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Mr V"
+    description = "Personal blog"
+    githubUsername = "#"
+    accent = "blue"
+    showBorder = false
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+    url = "/post/"
+    name = "Home"
+    weight = 1
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "mailto:mr.v.elliot@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/mr-v8"
+    name = "github"
+    weight = 2
+
